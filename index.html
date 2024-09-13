@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册页面</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .outer-wrapper {
+            background-color: #fff;
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .topbar {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .body-wrapper {
+            padding: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 20px;
+        }
+
+        .title-left {
+            font-size: 20px;
+        }
+
+        .title-right {
+            font-size: 16px;
+            color: #3498db;
+            cursor: pointer;
+        }
+
+        .li-left {
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .li-bottom {
+            font-size: 12px;
+            color: #999;
+        }
+
+        .foot-wrapper {
+            padding: 20px 0;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #2c83ff;
+        }
+    </style>
+</head>
+<body>
+  <h2>lwy 0120230291</h2>
+    <div class="outer-wrapper">
+        <div class="topbar">
+            <div class="topbar-left">
+                <button onclick="showAccountRegistration()">账号注册</button>
+                <button onclick="showPhoneNumberRegistration()">手机号码注册</button>
+            </div>
+        </div>
+        <div class="body-wrapper">
+            <ul>
+                <li class="clearfix">
+                    <div class="title-left">注册</div>
+                </li>
+                <li>
+                    <div class="li-left">*账号</div><input type="text" id="username"><br>
+                    <div class="li-bottom">6~18个字符，可使用字母、数字、下划线，需以字母开头</div>
+                </li>
+                <li>
+                    <div class="li-left">*密码</div><input type="password" id="password"><br>
+                    <div class="li-bottom">6~18个字符，不区分大小写</div>
+                </li>
+                <li>
+                    <div class="li-left">*确认密码</div><input type="password" id="confirmPassword"><br>
+                    <div class="li-bottom">请再次填写密码</div>
+                </li>
+            </ul>
+        </div>
+        <div class="foot-wrapper">
+            <input type="checkbox" id="agreeTerms">同意 "服务条款" 和 "隐私权相关政策" <br>
+            <input type="submit" value="立即注册" onclick="register()">
+        </div>
+    </div>
+
+    <script>
+        function showAccountRegistration() {
+            // 添加切换到账号注册的逻辑
+        }
+
+        function showPhoneNumberRegistration() {
+            // 添加切换到手机号码注册的逻辑
+        }
+
+        function register() {
+            // 添加注册逻辑
+        }
+    </script>
+</body>
+</html>
